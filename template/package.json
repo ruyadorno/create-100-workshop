@@ -1,0 +1,15 @@
+{
+  "name": "node-versions-helper",
+  "version": "1.0.0",
+  "description": "A command-line tool to browse node versions",
+  "bin": "cli.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "tap"
+  },
+  "dependencies": {
+    "semver": "^7.5.4",
+    "tap": "^18.5.6"
+  }
+}
