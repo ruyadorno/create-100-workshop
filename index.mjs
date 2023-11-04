@@ -35,6 +35,9 @@ const stepTemplates = new Map(Object.entries({
     'test/index.js',
   ],
   2: [
+    'test/index.js',
+  ],
+  3: [
     'test/format-count.js',
   ],
 }))
