@@ -40,6 +40,11 @@ const stepTemplates = new Map(Object.entries({
   3: [
     'test/format-count.js',
   ],
+  4: [
+    'src/date.js',
+    'src/filter-recent.js',
+    'test/filter-recent.js',
+  ],
 }))
 
 async function makeDirectory({ basename, dirname }) {
