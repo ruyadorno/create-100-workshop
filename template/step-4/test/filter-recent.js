@@ -22,7 +22,6 @@ const nodeJSVersions = [
     date: '1970-01-01',
   }
 ]
-const filtered = filterRecent({ recent: 'day', nodeJSVersions })
 
 t.match(
   filterRecent({ recent: 'day', nodeJSVersions }),
@@ -32,4 +31,3 @@ t.match(
   }],
   'should return only recent elements'
 )
-
