@@ -26,6 +26,7 @@ const defaultTemplates = [
   'src/filter-recent.js',
   'src/format-count.js',
   'src/index.js',
+  'src/output.js',
   'src/retrieve-nodejs-versions.js',
   'test/index.js',
   'cli.js',
@@ -53,6 +54,9 @@ const stepTemplates = new Map(Object.entries({
   ],
   6: [
     'test/filter-booleans.js',
+  ],
+  7: [
+    'test/output.js',
   ],
 }))
 
