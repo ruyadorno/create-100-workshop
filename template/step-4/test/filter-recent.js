@@ -3,7 +3,6 @@ import t from 'tap'
 const { filterRecent } = (await t.mockImport('../src/filter-recent.js', {
   '../src/date.js': {
     elapsed(releaseDate) {
-      console.log('elapsed', releaseDate)
       if (releaseDate === '1970-01-08') {
         return 1
       } else {
@@ -24,7 +23,6 @@ const nodeJSVersions = [
   }
 ]
 const filtered = filterRecent({ recent: 'day', nodeJSVersions })
-console.log('filtered result', filtered)
 
 t.match(
   filterRecent({ recent: 'day', nodeJSVersions }),
