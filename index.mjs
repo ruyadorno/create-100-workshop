@@ -58,6 +58,9 @@ const stepTemplates = new Map(Object.entries({
   7: [
     'test/output.js',
   ],
+  8: [
+    'test/index.js',
+  ],
 }))
 
 async function makeDirectory({ basename, dirname }) {
