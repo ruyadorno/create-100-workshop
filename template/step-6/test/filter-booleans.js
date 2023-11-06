@@ -44,5 +44,5 @@ t.strictSame(
       lts: true,
     },
   ],
-  'should return the expected lts versions'
+  'should return the expected security versions'
 )
