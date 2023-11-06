@@ -1,5 +1,6 @@
 import { parseArgs } from 'node:util'
 import { main } from './src/index.js'
+import { printError, printResult } from './src/output.js'
 
 const { values } = parseArgs({
   options: {
@@ -25,18 +26,8 @@ const { values } = parseArgs({
 const res = await main(values)
 
 if (!res.length) {
-  console.error('No result found!')
+  printError()
   process.exit(1)
 }
 
-if (values.json) {
-  console.log(JSON.stringify(res, null, 2))
-} else {
-  if (res.length && !res[0]) {
-    console.log(res.length)
-  } else {
-    for (const i of res) {
-      console.log(i.version)
-    }
-  }
-}
+printResult({ json: values.json, nodeJSVersions: res })
