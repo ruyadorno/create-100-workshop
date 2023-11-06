@@ -15,6 +15,8 @@ const { values: opts } = parseArgs({
 
 const folders = [
   'src',
+  'tap-snapshots',
+  'tap-snapshots/test',
   'test',
 ]
 const defaultTemplates = [
@@ -33,6 +35,7 @@ const defaultTemplates = [
 const stepTemplates = new Map(Object.entries({
   1: [
     'test/index.js',
+    'tap-snapshots/test/index.js.test.cjs',
   ],
   2: [
     'test/index.js',

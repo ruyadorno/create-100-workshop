@@ -1,0 +1,81 @@
+/* IMPORTANT
+ * This snapshot file is auto-generated, but designed for humans.
+ * It should be checked into source control and tracked carefully.
+ * Re-generate by setting TAP_SNAPSHOT=1 and running tests.
+ * Make sure to inspect the output below.  Do not ignore changes!
+ */
+'use strict'
+exports[`test/index.js > TAP > should have expected versions 1`] = `
+Array [
+  Object {
+    "date": "2023-10-24",
+    "files": Array [
+      "aix-ppc64",
+      "headers",
+      "linux-arm64",
+      "linux-armv7l",
+      "linux-ppc64le",
+      "linux-s390x",
+      "linux-x64",
+      "osx-arm64-tar",
+      "osx-x64-pkg",
+      "osx-x64-tar",
+      "src",
+      "win-arm64-7z",
+      "win-arm64-zip",
+      "win-x64-7z",
+      "win-x64-exe",
+      "win-x64-msi",
+      "win-x64-zip",
+      "win-x86-7z",
+      "win-x86-exe",
+      "win-x86-msi",
+      "win-x86-zip",
+    ],
+    "lts": false,
+    "modules": "120",
+    "npm": "10.2.0",
+    "openssl": "3.0.10+quic",
+    "security": false,
+    "uv": "1.46.0",
+    "v8": "11.8.172.15",
+    "version": "v21.1.0",
+    "zlib": "1.2.13.1-motley",
+  },
+  Object {
+    "date": "2023-10-17",
+    "files": Array [
+      "aix-ppc64",
+      "headers",
+      "linux-arm64",
+      "linux-armv7l",
+      "linux-ppc64le",
+      "linux-s390x",
+      "linux-x64",
+      "osx-arm64-tar",
+      "osx-x64-pkg",
+      "osx-x64-tar",
+      "src",
+      "win-arm64-7z",
+      "win-arm64-zip",
+      "win-x64-7z",
+      "win-x64-exe",
+      "win-x64-msi",
+      "win-x64-zip",
+      "win-x86-7z",
+      "win-x86-exe",
+      "win-x86-msi",
+      "win-x86-zip",
+    ],
+    "lts": false,
+    "modules": "120",
+    "npm": "10.2.0",
+    "openssl": "3.0.10+quic",
+    "security": false,
+    "uv": "1.46.0",
+    "v8": "11.8.172.13",
+    "version": "v21.0.0",
+    "zlib": "1.2.13.1-motley",
+  },
+]
+`
