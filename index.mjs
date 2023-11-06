@@ -57,6 +57,7 @@ const stepTemplates = new Map(Object.entries({
   ],
   7: [
     'test/output.js',
+    'tap-snapshots/test/output.js.test.cjs',
   ],
   8: [
     'test/index.js',
