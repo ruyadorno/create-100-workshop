@@ -48,6 +48,9 @@ const stepTemplates = new Map(Object.entries({
   5: [
     'test/filter-npm.js',
   ],
+  6: [
+    'test/filter-booleans.js',
+  ],
 }))
 
 async function makeDirectory({ basename, dirname }) {
