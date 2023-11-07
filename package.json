@@ -1,6 +1,6 @@
 {
   "name": "@ruyadorno/create-100-workshop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The road to 100% test coverage workshop",
   "files": [
     "index.mjs",
