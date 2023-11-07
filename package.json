@@ -2,7 +2,9 @@
   "name": "@ruyadorno/create-100-workshop",
   "version": "1.0.0",
   "description": "The road to 100% test coverage workshop",
-  "bin": "index.mjs",
+  "bin": {
+    "create-100-workshop": "index.mjs"
+  },
   "author": "Ruy Adorno <ruyadorno@hotmail.com> (https://ruyadorno.com/)",
   "license": "MIT"
 }
