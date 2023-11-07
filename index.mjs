@@ -5,6 +5,7 @@ import { copyFile, mkdir } from 'node:fs/promises'
 import { fileURLToPath, URL } from 'node:url'
 import { parseArgs } from 'node:util'
 
+console.log('process.argv', process.argv)
 const { values: opts } = parseArgs({
   options: {
     step: {
