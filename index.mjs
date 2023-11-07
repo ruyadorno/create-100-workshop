@@ -48,29 +48,33 @@ const stepTemplates = new Map(Object.entries({
     'test/index.js',
   ],
   3: [
-    'coverage-map.mjs',
-    'package.json',
-  ],
-  4: [
     'test/format-count.js',
   ],
-  5: [
+  4: [
     'src/date.js',
     'src/filter-recent.js',
     'test/filter-recent.js',
   ],
-  6: [
+  5: [
     'test/filter-npm.js',
   ],
-  7: [
+  6: [
     'test/filter-booleans.js',
   ],
-  8: [
+  7: [
     'test/output.js',
     'tap-snapshots/test/output.js.test.cjs',
   ],
-  9: [
+  8: [
     'test/index.js',
+  ],
+  9: [
+    'test/retrieve-nodejs-versions.js',
+    'package.json',
+  ],
+  10: [
+    'coverage-map.mjs',
+    'package.json',
   ],
 }))
 

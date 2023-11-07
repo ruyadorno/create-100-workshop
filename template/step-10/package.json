@@ -13,6 +13,7 @@
     "coverage-map": "coverage-map.mjs"
   },
   "dependencies": {
+    "undici": "^5.27.2",
     "semver": "^7.5.4",
     "tap": "^18.5.6"
   }
