@@ -4,8 +4,8 @@
   "description": "The road to 100% test coverage workshop",
   "files": [
     "index.mjs",
-    "template/.gitignore",
-    "template/*"
+    "template/*",
+    "!template/node_modules"
   ],
   "bin": {
     "create-100-workshop": "index.mjs"

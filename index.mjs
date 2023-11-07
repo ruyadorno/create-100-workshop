@@ -20,7 +20,7 @@ const folders = [
   'test',
 ]
 const defaultTemplates = [
-  '.gitignore',
+  '_gitignore',
   'src/filter-booleans.js',
   'src/filter-npm.js',
   'src/filter-recent.js',
@@ -84,11 +84,18 @@ async function makeDirectory({ basename, dirname }) {
   await mkdir(to).catch(err => console.warn('dir found: ', err.path))
 }
 
+function fixFilenameTo(filename) {
+  if (filename === '_gitignore') {
+    return '.gitignore'
+  }
+  return filename
+}
+
 async function copy({ basename, filename }) {
   const stepfoldername = opts.step ? `step-${opts.step}` : ''
   const url = new URL(`template/${stepfoldername}/${filename}`, import.meta.url)
   const path = fileURLToPath(url)
-  const to = resolve(basename, filename)
+  const to = resolve(basename, fixFilenameTo(filename))
   console.log('copy from:', path)
   console.log('copy to: ', to)
   console.log('---')
