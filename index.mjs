@@ -66,11 +66,11 @@ const stepTemplates = new Map(Object.entries({
     'tap-snapshots/test/output.js.test.cjs',
   ],
   8: [
-    'test/index.js',
-  ],
-  9: [
     'test/retrieve-nodejs-versions.js',
     'package.json',
+  ],
+  9: [
+    'test/index.js',
   ],
   10: [
     'coverage-map.mjs',
