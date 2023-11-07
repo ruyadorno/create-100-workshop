@@ -2,6 +2,11 @@
   "name": "@ruyadorno/create-100-workshop",
   "version": "1.0.0",
   "description": "The road to 100% test coverage workshop",
+  "files": [
+    "index.mjs",
+    "template/.gitignore",
+    "template/*"
+  ],
   "bin": {
     "create-100-workshop": "index.mjs"
   },
