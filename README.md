@@ -3,6 +3,8 @@
 This repo contains the code generator for the session **The Road to 100% test
 coverage workshop** presented at NodeConf EU 2023.
 
+You can see the slides for this workshop here: <https://speakerdeck.com/ruyadorno/the-road-to-100-percent-test-coverage>
+
 ## Prerequisites
 
 `node18+`, make sure the `npm` and `npx` commands are available.
